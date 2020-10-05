@@ -37,3 +37,4 @@ for (setType, originalPaths, basePath) in datasets:
 
                 newPath=os.path.sep.join([labelPath, file])
                 shutil.copy2(path, newPath)
+                    
